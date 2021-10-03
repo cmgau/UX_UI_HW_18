@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
+@import url(//fonts.googleapis.com/css?family=Vibur);
 :root {
   --dark-one: #333;
   --dark-two: #7a7a7a;
@@ -9,6 +9,8 @@
   --light-two: #f9fafb;
   --light-three: #f6f7fb;
 }
+
+
 
 /* Genral Styles */
 
@@ -236,6 +238,14 @@ img {
   width: 210px;
 }
 
+
+.profile-image { 
+  transition: 0.3s;}
+
+.profile-image:hover{
+transform: translateY(-10px);
+}
+
 .img-element { 
   transition: 0.3s;}
 
@@ -360,8 +370,9 @@ nav .container {
 }
 
 .links a:hover {
-  color: var(--main-color);
+  color: white;;
   transform: translateY(-10px);
+  background: transparent linear-gradient(257deg, #FC3E99 0%, #470590 100%) 0% 0% no-repeat padding-box;
 }
 
 .links a.active:hover {
