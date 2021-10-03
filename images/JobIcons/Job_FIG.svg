@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="86.4" height="84.24" viewBox="0 0 86.4 84.24">
+  <g id="Job_FIG" transform="translate(-1176 -2066.399)">
+    <g id="Icon_feather-figma" data-name="Icon feather-figma" transform="translate(1200.534 2080.519)">
+      <path id="Path_1" data-name="Path 1" d="M16.834,2h9.334a1,1,0,0,1,1,1V21.667a1,1,0,0,1-1,1H16.834A10.334,10.334,0,0,1,16.834,2Zm8.334,2H16.834a8.334,8.334,0,0,0,0,16.667h8.334Z" transform="translate(-7.502 -3)"/>
+      <path id="Path_2" data-name="Path 2" d="M18,2h9.334a10.334,10.334,0,1,1,0,20.667H18a1,1,0,0,1-1-1V3A1,1,0,0,1,18,2Zm9.334,18.667A8.334,8.334,0,1,0,27.334,4H19V20.667Z" transform="translate(0.666 -3)"/>
+      <path id="Path_3" data-name="Path 3" d="M27.334,33.167A10.334,10.334,0,1,1,37.667,22.834,10.345,10.345,0,0,1,27.334,33.167Zm0-18.667a8.334,8.334,0,1,0,8.334,8.334A8.343,8.343,0,0,0,27.334,14.5Z" transform="translate(0.666 5.168)"/>
+      <path id="Path_4" data-name="Path 4" d="M16.834,23h9.334a1,1,0,0,1,1,1v9.334A10.334,10.334,0,1,1,16.834,23Zm8.334,2H16.834a8.334,8.334,0,1,0,8.334,8.334Z" transform="translate(-7.502 13.335)"/>
+      <path id="Path_5" data-name="Path 5" d="M16.834,12.5h9.334a1,1,0,0,1,1,1V32.167a1,1,0,0,1-1,1H16.834a10.334,10.334,0,0,1,0-20.667Zm8.334,2H16.834a8.334,8.334,0,1,0,0,16.667h8.334Z" transform="translate(-7.502 5.168)"/>
+    </g>
+    <path id="Icon_simple-adobeaftereffects" data-name="Icon simple-adobeaftereffects" d="M0,.45V84.69H86.4V.45Zm3.6,3.6H82.8V81.09H3.6Z" transform="translate(1176 2065.949)"/>
+  </g>
+</svg>

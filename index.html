@@ -2,71 +2,218 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>CGUI</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
-  <!-- Nav section -->
-  <div class="container">
-    <div class="navbar">
-      <!-- <img src="images/logo.png" class="logo"> -->
-      <div class="logo">CG</div>
+
+  <main>
+    <header id="header">
       <nav>
-        <ul>
-          <li><a href="">ABOUT</a></li>
-          <li><a href="">SKILLS</a></li>
-          <li><a href="">WORK</a></li>
-          <li class><a href="">CONTACT</a></li>
-        </ul>
-      </nav>
-      <!-- <img src="images/menu.png" class="menu-icon" alt=""> -->
+        <div class="container">
+          <div class="logo">
+            <h1>CG</h1>
+          </div>
 
-      <!-- Body Section -->
-    </div>
-    <div class="row">
-      <div class="Intro">
-        <H1>I’m Chester Galam</H1>
-        <h2>I design and draw.</H2>
+          <div class="links">
+            <ul>
+              <li>
+                <a href="#header">Home</a>
+              </li>
+              <li>
+                <a href="#services">Experience</a>
+              </li>
+              <li>
+                <a href="#about">Folio</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
 
-        <p>I'm a UX/UI designer based in Melbourne, Australia with experience in delivering end-to-end UX/UI design for
-          the web. Let's solve that complex problem and turn it into something <b>simple and beautiful.</b>
-        </p>
-        <button type="button"><span>Let's Collab!</span></button>
-      </div>
-
-      <!-- cards -->
-
-      <div class="col">
-        <div class="card card1">
-          <h4>Edgars Farm Redesign</h4>
-          <p>An animal sanctuary that was overwhelmed by phone bookings. A redesigned that focused
-            on improving the online booking and donation experience.</p>
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+          </div>
         </div>
+      </nav>
 
-        <div class="card card2">
-          <h4>We Travel</h4>
-          <p>How can we get people to workout and eat healthy together? See how I designed an app based on solving that
-            premise.
+      <div class="header-content">
+        <div class="container grid-2">
+          <div class="column-1">
+            <h1 class="header-title">I’m Chester Galam</h1>
+            <p class="text">
+              I'm a UX/UI designer based in Melbourne, Australia with experience in delivering end-to-end UX/UI design
+              for
+              the web. Let's solve that complex problem and turn it into something <b class="simple-beautiful"
+                data-title>simple
+                and beautiful.</b>
+            </p>
+            <a href="#" class="btn">Download CV</a>
+          </div>
+
+          <div class="column-2 image">
+            <img src="/images/person.png" class="img-element z-index" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="services section" id="services">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="title" data-title="What I Do">Work Experience</h3>
+          <p class="text">
+            I'm currently employed full time at Manbrands, an ad agency based in Melbourne as their Digital Designer.
+            Alongside assisting clients with all their digital design needs I also do UX research, analysis and
+            consultation, web design from simple landing pages to eCommerce web sites utilising Adobe XD.
           </p>
         </div>
-        <div class="card card3">
-          <h4>My License South Australia</h4>
-          <p class="description">How do we make the learning experience simple for learner drivers? A site redesign that
-            focused on that
-            very issue.</p>
+
+        <div class="cards">
+          <div class="card-wrap">
+            <div class="card" data-card="Current">
+              <div class="card-content z-index">
+                <img src="images/manbrands.jfif" class="icon" alt="" />
+                <h3 class="title-sm">MANBRANDS</h3>
+                <h4>Digital Designer</h4>
+                <p class="text">
+                  I love working here, from designing websites, UX reviews to shooting a video with Barry Hall.
+                  Manbrands has taught me a lot and more!
+                </p>
+                <!-- <a href="#" class="btn small">Read more</a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="card-wrap">
+            <div class="card" data-card="Previous">
+              <div class="card-content z-index">
+                <img src="images/alltel.jpg" class="icon" alt="" />
+                <h3 class="title-sm">Alltel</h3>
+                <h4>Graphic Designer</h4>
+                <p class="text">
+                  I worked with a lovely team here, we worked together redesigning the website to something
+                  wonderful.
+                  This is where I got my taste for UI and UX.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-wrap">
+            <div class="card" data-card="Previous">
+              <div class="card-content z-index">
+                <img src="images/bts.jfif" class="icon" alt="" />
+                <h3 class="title-sm">Beyond the Summit</h3>
+                <h4>Digital Designer</h4>
+                <p class="text">
+                  An esports production company. It was a fast workplace, a real trial by fire for my first
+                  job. Even now I love going on twitch.tv and see my work being viewed by 100,000+ people.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="section-header">
+        <h3 class="titleSub" ">My Skill Set</h3>
+        <div>
+        <img src=" images/JobIcons/Job_XD.svg" class="skillIcon fill" />
+        <img src=" images/JobIcons/Job_AE.svg" class="skillIcon fill" />
+        <img src=" images/JobIcons/Job_AI.svg" class="skillIcon fill" />
+        <img src=" images/JobIcons/Job_PS.svg" class="skillIcon fill" />
+        <img src="images/JobIcons/Job_Id.svg" class="skillIcon fill" />
+        <img src=" images/JobIcons/Job_PR.svg" class="skillIcon fill" />
+        <img src=" images/JobIcons/Job_FIG.svg" class="skillIcon fill" />
+      </div>
+    </section>
+
+    <section class="portfolio section" id="portfolio">
+
+      <div class="container">
+        <div class="section-header">
+          <h3 class="title" data-title="My works">Portfolio</h3>
         </div>
 
-        <!-- <div class="card card4">
-          <h4>COLUMN 4</h4>
-          <p>Lorem ipsum dolor sit amet consectetur</p>
-        </div> -->
 
+        <div class="container">
+          <div class="container grid-2 a">
+            <div class="column-1">
+              <h2 class="title-sm">Edgar's Farm</h3>
+                <p class="text">
+                  Redesigning a beloved state animal sanctuary website. Edgar's has a massive following however their
+                  site
+                  was too outdated to handle Sanctuary bookings and donations.
+                </p>
+                <br>
+                <div>
+                  <p><b>Responsibilities:</b> UX Research, Hi Fidelity Design</p>
+                </div>
+            </div>
+            <div class="column-2 image">
+              <img src="/images/EG_Edgars.png" class="img-element z-index" alt="" />
+            </div>
+          </div>
+          <div class="container grid-2 b">
+            <div class="column-1 image">
+              <img src="/images/EG_MyLIcense.png" class="img-element z-index" alt="" />
+            </div>
+            <div class="column-1">
+              <h2 class="title-sm">My License. South Australia</h3>
+                <p class="text">
+                  A redesign that focused on creating a straightforward and simple experience for would-be learners in
+                  South Australia.
+                </p>
+                <br>
+                <div>
+                  <p><b>Responsibilities:</b> End-to-End UX to UI design</p>
+                </div>
+            </div>
+
+          </div>
+          <div class="container grid-2 a">
+            <div class="column-1">
+              <h2 class="title-sm">Edgar's Farm</h3>
+                <p class="text">
+                  Redesigning a beloved state animal sanctuary website. Edgar's has a massive following however their
+                  site
+                  was too outdated to handle Sanctuary bookings and donations.
+                </p>
+                <br>
+                <div>
+                  <p><b>Responsibilities:</b> UX Research, Hi Fidelity Design</p>
+                </div>
+            </div>
+            <div class="column-2 image">
+              <img src="/images/EG_ExerciseBuddy.png" class="img-element" alt="" />
+            </div>
+    </section>
+    <section class="DownloadFolio">
+      <div class="more-folio">
+        <a href="#" class="btn">Download Folio</a>
       </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <h3 class="footerH3">Let's talk about a project</h3>
+      <p class="text">
+        I need money to fuel my food habit. There is a finite amount of possibilities when you hire me. All of them
+        design related.
+      </p>
+      <a href="#" class="footerBtn">Let's Collab</a>
     </div>
-  </div>
+    </section>
+
+</html>
