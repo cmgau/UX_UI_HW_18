@@ -323,22 +323,26 @@ nav .container {
   font-size: 2rem;
   color: #1f0e28;
   cursor: pointer;
-  animation: blink 10s;
+  animation: blink 10s infinite;
 }
 
 @keyframes blink {
   0%, 18%, 20%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92% {
     color: #1f0e28;
-    text-shadow: 2px 2px #FC3E99;
+    text-shadow: 2px 2px #27aae1;
     box-shadow: none;
    ;
   }
   
   18.1%, 20.1%, 30%, 50%, 60.1%, 65%, 80.1%, 100% {
    color: #ffc2fd;
-  text-shadow: 0 0 20px #470590,
-               0 0 40px #f205ae,
-
+   text-shadow: 0 0 10px #e4a228,
+   0 0 20px #f205ae,
+   0 0 40px #f205ae,
+   0 0 80px #f205ae,
+   0 0 160px #f205ae,
+   0 0 320px #f205ae,
+   0 0 640px #f205ae;
 
   }
 }
