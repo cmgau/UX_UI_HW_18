@@ -655,6 +655,24 @@ nav.open .links {
   transition: 0.3s;
 }
 
+.mobilenumber{
+  width:100%;
+  transition: 0.5s;
+}
+
+.mobilenumber .email {
+  display: none; 
+}
+
+.mobilenumber:hover .contact {
+  display: none;}
+
+.mobilenumber:hover .email {
+    display: inline;}
+  
+
+
+
 
 .footerBtn:hover {
   color: #FC3E99;
