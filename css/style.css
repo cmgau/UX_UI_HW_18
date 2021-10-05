@@ -74,6 +74,11 @@ img {
   width: 100%;
 }
 
+.imgPortfolio {
+  width: 100%;
+padding: 5rem;
+}
+
 .container {
   position: relative;
   z-index: 5;
@@ -106,6 +111,7 @@ img {
 
 .column-2 {
   margin-left: 1.5rem;
+  padding-bottom: 2rem;
 }
 
 .image {
@@ -654,6 +660,7 @@ nav.open .links {
     max-width: 100%;
     min-width: 350px;
     height: auto;
+;
 }
 
 
@@ -765,7 +772,7 @@ nav.open .links {
   width: 100%;
   border-radius: ;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   grid-column-gap: 0.6rem;
 }
 
@@ -819,7 +826,7 @@ nav.open .links {
 
 .contactbtn:hover {
   background: transparent linear-gradient(257deg, #FC3E99 0%, #470590 100%) 0% 0% no-repeat padding-box;
-  transform: translateY(-10px);
+  /* transform: translateY(-10px); */
   border-radius: 36px;
 }
 
@@ -1038,6 +1045,7 @@ nav.open .links {
 
   .header-content .image .img-element {
     max-width: 100%;
+    padding-bottom: 9rem;
   }
 
   nav .container {
@@ -1262,6 +1270,7 @@ nav.open .links {
   }
 
   .contact-form {
+    padding-bottom: 2rem;;
     padding-left: 1rem;
   }
 
@@ -1561,7 +1570,7 @@ nav.open .links {
   }
 
   .contact-info {
-    padding-right: 0;
+    padding-right:5rem;
     padding-bottom: 0.5rem;
   }
 
