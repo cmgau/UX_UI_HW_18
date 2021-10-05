@@ -18,6 +18,20 @@ hamburger_menu.addEventListener("click", () => {
 
 links.forEach((link) => link.addEventListener("click", () => closeMenu()));
 
+$(function () {
+  $("#imgPortfolio").hover(
+    function () {
+      $(this).attr("src", "images/picedgars-still.gif");
+      // $(this).fadeIn(3000);
+    },
+    function () {
+      $(this).attr("src", "images/picedgars-still.png");
+      // $(this).fadeOut(3000);
+    }
+  );
+});
+
+
 filter_btns.forEach((btn) =>
   btn.addEventListener("click", () => {
     filter_btns.forEach((button) => button.classList.remove("active"));

@@ -96,8 +96,9 @@ img {
 .profile-image{
   padding: 16px;
   border-radius: 2rem;
-
+  display: inline-block;
 }
+
 .z-index {
   position: relative;
   z-index: 2;
@@ -261,8 +262,7 @@ transform: translateY(-10px);
   font-size: 1.05rem;
   text-transform: uppercase;
   font-weight: 500;
-  transition: 0.3s;
-}
+  transition: 0.3s;}
 
 .btn:hover {
   background: transparent linear-gradient(257deg, #FC3E99 0%, #470590 100%) 0% 0% no-repeat padding-box;
@@ -574,7 +574,7 @@ nav.open .links {
   position: relative;
 }
 
-}
+
 .portfolio .container.grid-2 a {
   grid-template-columns: 2fr 1fr;
   min-height: calc(100vh - 6rem);
