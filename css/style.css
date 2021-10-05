@@ -10,6 +10,28 @@
   --light-three: #f6f7fb;
 }
 
+/* #myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+} */
+
+
+
+header {
+  background-image: url(/images/background-paper.jpg);
+  background opacity: 0.3;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 500px;
+
+  box-sizing: border-box;
+  }
+}
 
 
 /* Genral Styles */
@@ -310,7 +332,7 @@ btn.small {
 
 header {
   width: 100%;
-  background-color: var(--light-three);
+  /* background-color: var(--light-three); */
   overflow: hidden;
   position: relative;
 }
@@ -332,7 +354,8 @@ nav .container {
   font-size: 2rem;
   color: #1f0e28;
   cursor: pointer;
-  animation: blink 10s infinite;
+  text-shadow: 2px 2px #27aae1;
+  /* animation: blink 10s infinite; */
 }
 
 @keyframes blink {
@@ -675,7 +698,7 @@ nav.open .links {
 
 .contact-box {
   width: 100%;
-  background-color: var(--light-one);
+  /* background-color: var(--light-one); */
   width: 100%;
   border-radius: 0rem;
   padding: 5.5rem 4.5rem;
@@ -831,6 +854,7 @@ nav.open .links {
 }
 
 .footer{
+  width:auto;
   display: grid;
   text-align: center;
   color: white;
