@@ -813,7 +813,7 @@ nav.open .links {
 
 
 .contactbtn {
-  width:300px;
+  width:100%;
   text-align: center;
   display: inline-block;
   padding: 0.85rem 2rem;
@@ -956,6 +956,19 @@ nav.open .links {
 @media (max-width: 1280px) {
   .text {
     font-size: 1rem;
+  }
+
+  @media (max-width: 320px) { /*"xxx" the width of window*/
+    .footerBtn .btn {
+      width:100%;
+    }
+  }
+
+  @media (max-width:320px) {
+    .contactbtn {
+      width:100%
+    }
+    
   }
 
   .title {
