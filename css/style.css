@@ -813,6 +813,7 @@ nav.open .links {
 
 
 .contactbtn {
+  align-items: center;
   width:100%;
   text-align: center;
   display: inline-block;
