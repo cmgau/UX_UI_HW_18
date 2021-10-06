@@ -643,14 +643,14 @@ nav.open .links {
   padding-bottom: 2.5rem;
   text-align: left;
 }
-
+/* 
 .container {
   position: relative;
   z-index: 5;
   padding: 1rem;
   margin: 0 auto;
 }
-
+ */
 
 
 .portfolio .title:after {
@@ -683,14 +683,14 @@ nav.open .links {
   padding: 13.5rem 0 8.5rem;
 }
 
-.contact:before,
+/* .contact:before,
 .contact:after {
   content: "";
   position: absolute;
   width: 100%;
   z-index: -1;
   left: 0;
-}
+} */
 
 .contact:before {
   top: 0;
@@ -709,7 +709,7 @@ nav.open .links {
   /* background-color: var(--light-one); */
   width: 100%;
   border-radius: 0rem;
-  padding: 5.5rem 4.5rem;
+  /* padding: 5.5rem 4.5rem; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
@@ -1676,7 +1676,7 @@ nav.open .links {
 
 @media (max-width: 560px) {
   .container {
-    padding: 0 2rem;
+    padding: 1rem;
   }
 
   .title {
@@ -1758,7 +1758,7 @@ nav.open .links {
   }
 
   .contact-box {
-    padding: 2.3rem 2rem;
+    padding: 2rem;
     border-radius: 0rem;
 
   .contact:before {
