@@ -83,7 +83,7 @@ padding: 5rem;
   position: relative;
   z-index: 5;
   max-width: 92rem;
-  padding: 0 4rem;
+  padding: 2rem 4rem;
   margin: 0 auto;
 }
 
@@ -326,12 +326,18 @@ transform: translateY(-10px);
   content:"Downloading";
   border-radius: 36px;}
   
-btn.small {
+.btn.small {
+  background:var(--dark-two) ;
   padding: 0.7rem 1.8rem;
   font-size: 1rem;
 }
 
-/* End General Styles */
+.btn.small:hover {
+  background:var(--dark-one);
+  transform: translateY(-10px);
+  border-radius: 36px;
+} */
+/* End General Styles
 
 
 
@@ -485,7 +491,7 @@ nav.open .links {
 
 .header-content .container.grid-2 {
   grid-template-columns: 2fr 1fr;
-  min-height: calc(100vh - 6rem);
+  min-height: calc(100vh - 10rem);
   padding-bottom: 1.5rem;
   text-align: left;
 }
@@ -670,7 +676,7 @@ nav.open .links {
 .more-folio {
   display: flex;
   justify-content: center;
-  padding-bottom: 2.5rem;
+  padding: 2.5rem;
 }
 
 /* End Portfolio */
@@ -680,7 +686,7 @@ nav.open .links {
 .contact {
   position: relative;
   width: 100%;
-  padding: 13.5rem 0 8.5rem;
+  padding: 5rem 0 8.5rem;
 }
 
 /* .contact:before,
@@ -998,9 +1004,10 @@ nav.open .links {
   }
 
   .btn.small {
-    padding: 0.65rem 1.6rem;
-    font-size: 0.7rem;
+    padding: 0.7rem 1.8rem;
+    font-size: 1rem;
   }
+  
 
   .section-header .text {
     max-width: 500px;
