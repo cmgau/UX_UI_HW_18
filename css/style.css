@@ -19,19 +19,15 @@
 } */
 
 
-/* 
-header {
-  background-image: url(/images/background-paper.jpg);
-  background opacity: 0.3;
+body {
+  background-image: url(/images/background-3.jpg);
+  background-color:var(--light-three);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  min-height: 500px;
-
-  box-sizing: border-box;
   }
-} */
+
 
 
 /* Genral Styles */
@@ -617,8 +613,10 @@ nav.open .links {
 }
 
 .eduIcon {
-  max-width: 200px;
-  padding: 2rem;
+  width:auto;
+  max-height: 40px;  
+  transition: 0.5s;
+  padding: 0 1rem 0 1rem;
 }
 
 .fill:hover {
