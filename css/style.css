@@ -20,7 +20,7 @@
 
 
 body {
-  background-image: url(images/background-3.jpg);
+  background-image: url(/images/background-3.jpg);
   background-color:var(--light-three);
   background-position: center;
   background-repeat: no-repeat;
