@@ -921,6 +921,7 @@ nav.open .links {
   color: #FC3E99;
   background:white;
   transform: translateY(-10px);
+  border-radius: 36px;
 }
 
 .back-btn:hover {
