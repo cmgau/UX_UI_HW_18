@@ -18,6 +18,9 @@
   min-height: 100%;
 } */
 
+a {
+  color: inherit;
+}
 
 body {
   background-image: url(https://raw.githubusercontent.com/cmgau/cmg_portfolio/main/images/background-3.jpg);
@@ -124,6 +127,15 @@ padding: 5rem;
   display: inline-block;
 }
 
+.case-image{
+  padding: 16px;
+  /* height: 100%; */
+  width: 800px;
+  min-width: 390px;
+  border-radius: 2rem;
+  display: inline-block;
+}
+
 .z-index {
   position: relative;
   z-index: 2;
@@ -197,6 +209,7 @@ padding: 5rem;
 }
 
 
+
 .title:before {
   content: attr(data-title);
   display: block;
@@ -219,6 +232,37 @@ padding: 5rem;
   left: 50%;
   transform: translateX(-50%);
 }
+
+.title-header {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 1rem;
+  line-height: 1;
+  font-size: 2.8rem;
+  margin-bottom: 0.6rem;
+}
+
+
+.title-header:before {
+  content: attr(data-title);
+  display: block;
+  margin-bottom: 0.4rem;
+  color: var(--main-color);
+  font-size: 1.15rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.title-header:after {
+  content: "";
+  position: absolute;
+  width: 300px;
+  height: 5px;
+  border-radius: 0rem;
+    bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);}
 
 .titleSub{
   position: relative;
@@ -326,10 +370,11 @@ transform: translateY(-10px);
   background:var(--dark-two) ;
   padding: 0.7rem 1.8rem;
   font-size: 1rem;
+  pointer-events: none;
 }
 
 .btn.small:hover {
-  background:var(--dark-one);
+  /* background:var(--dark-one); */
   transform: translateY(-10px);
   border-radius: 36px;
 } */
